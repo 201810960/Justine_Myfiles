@@ -1,0 +1,140 @@
+body
+{
+    background: url(myassets/Background.png)
+    no-repeat center center fixed;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+header
+{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.head
+{
+    color: #fff;
+    font-size: 0.8rem; /* 1rem= 16px */
+    word-spacing:0.7rem;
+    float: left;
+
+}
+
+.input
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: orange;
+    font-size: 1.8rem; /* 1rem= 16px */
+    word-spacing:0.7rem;
+    float: right;
+}
+b:hover
+{
+    background-color: orange;
+}
+c:hover
+{
+    background-color: orange;
+}
+
+nav
+{
+    
+    float: left;
+}
+
+ul  
+{
+
+    border-left: 3px solid coral;
+}
+
+li
+{
+    display: inline;
+    padding-right: 3.0rem;
+}
+
+li a
+{
+    
+    color: #fff;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+a:hover
+{
+    background-color: orange;
+
+
+}
+
+.quote
+{
+    background-color: #E8290B;
+    padding: 0.5rem 1rem;
+    border-radius: 1.3rem;
+}
+
+.container 
+{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 5rem;
+}
+
+showcase h1
+{
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 0;
+
+}
+showcase h3
+{
+    font-size: 2rem;
+    color: #fff;
+    letter-spacing: 0.2rem;
+    margin-top: 0.5rem;
+}
+
+showcase p
+{
+    color: #fff;
+    font-family: cursive;
+    font-size:1.2rem;
+
+
+}
+
+
+a button
+{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 1.3rem;
+    margin-top: 1.2rem;
+}
+
+
+
+
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: orange;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+  }
